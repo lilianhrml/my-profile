@@ -1,0 +1,89 @@
+/* Colors and fonts */
+
+html,body {
+	font-family: 'Lora', serif;
+	background-color: rgb(255, 235, 224);
+	color: rgb(30, 30, 30);
+	font-size: 17px;
+	font-weight: 400;
+	}
+
+h1 { 
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500; 
+	letter-spacing: 5px;
+	color: gray;
+	font-size: 37px;
+	}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400; 
+	letter-spacing: 3px;
+	color: gray;
+	font-size: 24px;
+	}
+
+a {font-family: 'Raleway', sans-serif;
+	font-weight: 300; 
+	text-decoration: none; 
+	color: gray; 
+	font-weight: bold;
+	}
+
+a:hover {
+	color: rgb(50,50,50);
+	}
+
+
+/* Custom design with class */
+
+
+
+.container {width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+
+
+.card-white {background: rgb(244,243,250);
+    padding: 60px;
+    margin: 20px 0px 0px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    text-align: center;}
+
+.img-circle { width:100px ;
+
+	border-radius: 50%;
+}
+
+
+.btn-pink {background-color: rgb(255, 235, 224);
+	padding: 15px 20px;
+	border-radius: 4px;}
+
+
+.btn-pink:hover {background-color: rgb(188,184,177)}
+
+.list-inline {list-style: none;
+	padding-left: 0px;}
+
+.list-inline li {display: inline;
+	padding: 10px}
+
+.list-inline i {font-size: 40px}
+
+#introduction p {margin-bottom: 50px}
